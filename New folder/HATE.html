@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Anti-Madridista Manifesto</title>
+    <style>
+        :root {
+            --madrid-gold: #FEBE10;
+            --hater-red: #d90429;
+            --dark-bg: #0a0a0a;
+            --card-bg: #1a1a1a;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Arial Black', sans-serif;
+            background-color: var(--dark-bg);
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Hero Header with Stadium Image */
+        header {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), 
+                        url('http://googleusercontent.com/image_collection/image_retrieval/16047032958827841112_2');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 8px solid var(--hater-red);
+            text-align: center;
+        }
+
+        .crest {
+            width: 150px;
+            filter: grayscale(1) contrast(1.2);
+            margin-bottom: 20px;
+            opacity: 0.7;
+        }
+
+        h1 {
+            font-size: clamp(3rem, 10vw, 5rem);
+            color: var(--hater-red);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: -2px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--madrid-gold);
+            letter-spacing: 3px;
+        }
+
+        /* Main Content */
+        .content {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .reason-card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-left: 5px solid var(--hater-red);
+            transition: 0.3s;
+        }
+
+        .reason-card:hover {
+            background: #252525;
+            transform: scale(1.03);
+        }
+
+        .reason-card h2 {
+            color: var(--madrid-gold);
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #000;
+            color: #555;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="http://googleusercontent.com/image_collection/image_retrieval/16047032958827841112_0" class="crest" alt="Madrid Crest">
+        <h1>UNHALTED HATE</h1>
+        <p class="subtitle">EXPOSING THE LUCK OF THE BERNABÉU</p>
+    </header>
+
+    <div class="content">
+        <div class="grid">
+            <div class="reason-card">
+                <h2><a href="new 1.html" >01. THE REFS</a></h2>
+                <p>Strange whistles, convenient VAR lines, and "Madridista" officiating. Is it football, or is it influenced?</p>
+            </div>
+            <div class="reason-card">
+                <h2><a href="new 3.html">02. PLOT ARMOR</a></h2>
+                <p>They don't win because they're better; they win because the universe refuses to let them lose in the 90th minute.</p>
+            </div>
+            <div class="reason-card">
+                <h2><a href="new 4.html">03. THE ARROGANCE</a></h2>
+                <p>The "Kings of Europe" branding. Since when did entitlement become a trophy-winning strategy?</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 | Dedicated to every fan who's tired of seeing them win.
+    </footer>
+
+</body>
+</html>
